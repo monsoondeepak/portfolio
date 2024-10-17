@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  outline:none;
+  border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+:root{
+  --green:#27ae60;
+  --dark-color:#219150;
+  --black:#444;
+  --light-color:#666;
+  --border:.1rem solid rgba(0,0,0,.1);
+  --border-hover:.1rem solid var(--black);
+  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+html{
+  font-size:130.5%;
+  overflow-x:hidden;
+  scroll-padding-top:5rem;
+  scroll-behavior: smooth;
+
+}
+
+
+.dark{
+  background-color: rgb(52, 17, 17);
+  color:rgb(255, 255, 255);
+}
+.light{
+  background-color:#fff;
+  color:black;
+}
+html::-webkit-scrollbar{
+  width:.5rem;
+}
+html::-webkit-scrollbar-track{
+  background:transparent;
+}
+html::-webkit-scrollbar-thumb{
+  background:var(--black);
+  border-radius: 30px;
+}
+
+
+:root{
+  --base-color:white;
+  --base-element:black;
+  --text-color:white;
+  --secondary-text-color:#232738;
+  --primary-color:#3a435d;
+  --accent-color:#0071ff;
+}
+
+body{
+  background-color: rgb(52, 17, 17);
+  font-family: 'outfit';
+  color:white;
+  overflow-x: hidden;
+}
+
+
+
+
+
